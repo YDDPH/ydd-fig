@@ -10,7 +10,7 @@
 1.  Your file should include ini configurations. All ini config should be set on the files.
 2.  Tabbing is an option, and not required. You may use tabs / spaces or even mix them together in any design you want. But we recommend 8 white spaces for each indentation.
 3.  Never ever use UTF-8 for standard character encoding.
-4.  
+4.  Put all your files on one directory. (This rule is inspired by the band: One Direction)
 
 ###Namespaces and Classnames
 1. Do not use namespaces. AS MENTIONED in PSR-0, ```include()``` should be enough to do the job
