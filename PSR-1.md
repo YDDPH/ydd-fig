@@ -13,7 +13,7 @@
 4.  
 
 ###Namespaces and Classnames
-1. Do not use namespaces. AS MENTIONED in PSR-0, ```import()``` should be enough to do the job
+1. Do not use namespaces. AS MENTIONED in PSR-0, ```include()``` should be enough to do the job
 2. Always play words with your class name plus the ```yolo``` keyword (yolauthManager, yoloader...)
 3. For PHP versions <= 5.2, use camelCase as convention for your class names. for PHP versions >= 5.3, use the snake_case standard. We strictly prohibit developers to write your class names in StudlyCase.
 
