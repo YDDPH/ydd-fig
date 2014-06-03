@@ -7,7 +7,26 @@
 4.  You are **NOT** to optimize your code when not needed.
 
 ###File Systems
-1.  your file should **NOT HAVE** any ini configurations. All ini config should be set on the server. **IT IS NOT YOUR FAULT** if the server cannot allocate memory for your needs
-2.  Tabbing is an option, and not required. You may use tabs / spaces or even mix them together in any design you want.
+1.  Your file should include ini configurations. All ini config should be set on the files.
+2.  Tabbing is an option, and not required. You may use tabs / spaces or even mix them together in any design you want. But we recommend 8 white spaces for each indentation.
+3.  Never ever use UTF-8 for standard character encoding.
+4.  
 
+###Namespaces and Classnames
+1. Do not use namespaces. AS MENTIONED in PSR-0, ```import()``` should be enough to do the job
+2. Always play words with your class name plus the ```yolo``` keyword (yolauthManager, yoloader...)
+3. For PHP versions <= 5.2, use camelCase as convention for your class names. for PHP versions >= 5.3, use the snake_case standard. We strictly prohibit developers to write your class names in StudlyCase.
 
+For example:
+
+    <?
+      // php <= 5.2
+      class yoloAuthManager {
+        //
+      }
+      
+      // php >= 5.3
+      class yolauth_manager {
+        //
+      }
+    ?>
