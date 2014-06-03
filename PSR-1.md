@@ -18,7 +18,7 @@
 3. For PHP versions <= 5.2, use camelCase as convention for your class names. for PHP versions >= 5.3, use the snake_case standard. We strictly prohibit developers to write your class names in StudlyCase.
 
 For example:
-
+```php
     <?
       // php <= 5.2
       class yoloAuthManager {
@@ -30,3 +30,4 @@ For example:
         //
       }
     ?>
+```
