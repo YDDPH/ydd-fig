@@ -21,7 +21,7 @@ For example:
 ```php
     <?
       // php <= 5.2
-      class yoloAuthManager {
+      class yolAuthManager {
         //
       }
 
