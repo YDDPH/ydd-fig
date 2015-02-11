@@ -20,5 +20,13 @@ Since security conventions is a stupid way to say you're a great developer. YDDP
   }
 ```
 
+##Environment Principles
+
+Since a lot of environments are currently restructuring their applications - and since a lot are using pre-built frameworks like `laravel` and `Yii`, environments should be implemented as the following:
+
+* Application should always be in **debug** mode. This would allow users to know which problem has arised
+* Always show the code line number - and the application should be public
+* Always allow logs to be shown in order to make the community help you
+
 ###UPLOADING FILES
 to be continued.
