@@ -9,7 +9,7 @@ Development procedures are a hassle to take over. And every codebase is hard to 
 
 You also don't have to use any class namespaces anymore. the `include` function will do everything for you.
 
-##includeing Packages
+##including Packages
 Sometimes a YDD Developer has to include alot of codebase in order to properly function. therefore all you need to do is include
 your functions or files in `include.php` so that all your packages are in one place.
 
