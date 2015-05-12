@@ -21,12 +21,12 @@ For example:
 ```php
     <?
       // php <= 5.2
-      class yolAuthManager {
+      class yoloAuthManager {
         //
       }
 
       // php >= 5.3
-      class yolauth_manager {
+      class yoloauth_manager {
         //
       }
     ?>
