@@ -10,6 +10,10 @@ Testability? Meh.
 
 Test wasting your time? Do away with it. As long as it works when it's up on the server, that means it's tested, right? 
 
+If your client really wants a test suite, we highly suggest these repositories
+* [Phpunit VW Extension](https://github.com/hmlb/phpunit-vw)
+* [volkswagen](https://github.com/auchenberg/volkswagen)
+
 Namespaces look nice, but with Yolo Driven Development, you should put it all into one namespace. Since YDD usually is solo-development - should you really bother?  
 
 _"Move fast and break things"_
